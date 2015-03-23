@@ -1,0 +1,9 @@
+body {
+    background: #272822;
+    color: white;
+}
+
+code {
+    /* real developers need real fonts ;-) */
+    font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
