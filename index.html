@@ -16,9 +16,17 @@
 
 <pre>
 <code class="clojure">
+(ns io.sarnowski.www
+  (:require [universe.earth :refer [defhuman]]
+            [clj-time.core :as t]))
+
+
 (defhuman "<a href="http://www.sarnowski.io">Tobias Sarnowski</a>"
   :email     "tobias@sarnowski.io"
   :location  "Germany/Berlin"
+
+  :dev-since (-> (t/date-time 1997)
+                 (t/interval (t/now)))
 
   :github    "<a href="https://github.com/sarnowski" target="_blank">sarnowski</a>"
 
