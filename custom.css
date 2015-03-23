@@ -1,6 +1,11 @@
 body {
     background: #272822;
     color: white;
+    line-height: 1.1;
+}
+
+a {
+    text-decoration: none;
 }
 
 code {
