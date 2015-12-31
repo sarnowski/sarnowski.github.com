@@ -22,12 +22,14 @@
 
 
 (defhuman "<a href="http://www.sarnowski.io">Tobias Sarnowski</a>"
-  :email     "tobias@sarnowski.io"
+  :email     "<a href="mailto:tobias@sarnowski.io">tobias@sarnowski.io</a>"
   :location  "Germany/Berlin"
 
   :dev-since (-> (t/date-time 1997)
                  (t/interval (t/now)))
 
+  :pgp       {:url "<a href="http://www.sarnowski.io/sarnowski.asc">http://www.sarnowski.io/sarnowski.asc</a>"
+              :id  "B252211A"}
   :github    "<a href="https://github.com/sarnowski" target="_blank">sarnowski</a>"
 
   :interests [:software
