@@ -1,0 +1,135 @@
+{
+  "basics": {
+    "name": "Tobias Sarnowski",
+    "label": "Cloud Architect",
+    "picture": "sarnowski.jpg",
+    "email": "tobias@sarnowski.io",
+    "website": "http://www.sarnowski.io",
+    "summary": "I am a passionate software developer since 1997. My strength is my allround knowledge from low-level operating systems and assembler up to Clojure and the Cloud. Coupled with a solid understanding of security topics and distributed systems, this allows me to design and analyse complex, networked architectures. In parallel, I am cooperating with stakeholders to distill their functional requirements without mixing technical decisions into it. My broad knowledge and toolset allows me to find simple solutions to functional requirements.",
+    "location": {
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
+    },
+    "profiles": [
+      {
+        "network": "Keybase",
+        "username": "sarnowski",
+        "url": "https://keybase.io/sarnowski"
+      },
+      {
+        "network": "GitHub",
+        "username": "sarnowski",
+        "url": "https://github.com/sarnowski"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Zalando SE",
+      "position": "Cloud Architect",
+      "website": "https://tech.zalando.com",
+      "startDate": "2014-05-01",
+      "summary": "Designing, developing and rolling out processes, systems and good practices in order to bring Zalando Technology from data centers into the Cloud.",
+      "highlights": [
+        "Design, development and operations of STUPS (https://stups.io) to allow Zalando to work on Amazon Web Services (AWS).",
+        "Consulting for all Zalando teams to build Cloud-ready software and processes."
+      ]
+    },
+    {
+      "company": "Zalando GmbH",
+      "position": "Team Lead",
+      "website": "https://tech.zalando.com",
+      "startDate": "2012-07-01",
+      "endDate": "2014-05-01",
+      "summary": "Leading the 'Order Team', that builds the software which processes all sales orders Zalando receives. The system manages the processes of creating sales orders, handling payment options, coordinating logistics processes, processing returns and refunding customers while also coordinating with the SAP accounting systems and the customer care tooling. When I started, the system handled $300mio revenue while serving 5 countries with two warehouses. I left the team handling $2bn yearly revenue while serving 13 countries with 4 warehouses. The team grew from 6 to 22 people.",
+      "highlights": [
+        "Delivered a system that ran high-available 24x7 and served all our customers while handling accounting and coordinating logistics.",
+        "Formalized the whole sales and return order processes with BPMN 2.0 and introduced a BPMN engine that scales and uses the BPMN flows to process the orders.",
+        "Integrated our custom services with SAP FI-CA to use SAP's accounting capabilities within 3 months."
+      ]
+    },
+    {
+      "company": "CosmoCode GmbH",
+      "position": "Team Lead, Senior Software Engineer",
+      "website": "http://www.cosmocode.de/",
+      "startDate": "2009-07-01",
+      "endDate": "2012-07-01",
+      "summary": "Designing, developing and launching various kinds of web, mobile and embedded applications."
+    },
+    {
+      "company": "CosmoCode GmbH",
+      "position": "Software Engineer",
+      "website": "http://www.cosmocode.de/",
+      "startDate": "2006-08-01",
+      "endDate": "2009-07-01",
+      "summary": "Designing, developing and launching various kinds of web applications."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Infrastructure",
+      "keywords": [
+        "Distributed Systems",
+        "Security",
+        "Identity & Access Management",
+        "Container Orchestration",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "keywords": [
+        "Clojure",
+        "Golang",
+        "Java",
+        "Shell",
+        "Python",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C",
+        "Lua",
+        "TCL",
+        "Assembler"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "keywords": [
+        "Continuous Delivery",
+        "Kanban",
+        "eXtreme Programming"
+      ]
+    },
+    {
+      "name": "Operations",
+      "keywords": [
+        "Amazon Web Services",
+        "Bare Metal",
+        "Linux",
+        "OpenBSD"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "Cassandra",
+        "etcd",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    }
+  ]
+}

@@ -1,68 +1,166 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Tobias Sarnowski</title>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="author" content="Tobias Sarnowski">
-    <meta name="description" content="Tobias is a software engineer with special interest in distributed systems, nice programming languages and open source."/>
-    <meta name="keywords" content="Sarnowski, software, distributed, clojure, lisp, low-level, open-source, cloud"/>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/monokai.min.css">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> </title>
+    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
+   <style>
+    </style>
 
-<body>
+  
+  </head>
+  <body>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+        <h1>Tobias Sarnowski<h1>
 
-<pre>
-<code class="clojure">
-(ns io.sarnowski.www
-  (:require [universe.earth :refer [defhuman]]
-            [clj-time.core :as t]))
+        <h2>Berlin</h2>
+        </div>
+        <div class="col-md-6 col-sm-12">
+        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;c04fa8db77479ba5bacf3a75aa817691?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 20px;">
 
+        </div>
+        </div>
+      <hr style="color: #ccc; height: 4px;" />
+      <section class="row">
+        <header class="col-md-3">
+          <h3>About</h3>
+        </header>
+        <div class="col-md-9">
+        <p>I am a passionate software developer since 1997. My strength is my allround knowledge from low-level operating systems and assembler up to Clojure and the Cloud. Coupled with a solid understanding of security topics and distributed systems, this allows me to design and analyse complex, networked architectures. In parallel, I am cooperating with stakeholders to distill their functional requirements without mixing technical decisions into it. My broad knowledge and toolset allows me to find simple solutions to functional requirements.</p>
+        <strong>Email:</strong> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="582c373a31392b182b392a36372f2b3331763137">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><br />
+        </div>
+      </section>
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Work Experience</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            <h3>Zalando SE</h3>
+            <strong>Cloud Architect</strong>
+            <p>2014 - Present</p>
+            <p>Designing, developing and rolling out processes, systems and good practices in order to bring Zalando Technology from data centers into the Cloud.</p>
+            <ul>
+              <li>Design, development and operations of STUPS (https:&#x2F;&#x2F;stups.io) to allow Zalando to work on Amazon Web Services (AWS).</li>
+              <li>Consulting for all Zalando teams to build Cloud-ready software and processes.</li>
+            </ul>
+            <hr />            <h3>Zalando GmbH</h3>
+            <strong>Team Lead</strong>
+            <p>2012 - 2014</p>
+            <p>Leading the &#39;Order Team&#39;, that builds the software which processes all sales orders Zalando receives. The system manages the processes of creating sales orders, handling payment options, coordinating logistics processes, processing returns and refunding customers while also coordinating with the SAP accounting systems and the customer care tooling. When I started, the system handled $300mio revenue while serving 5 countries with two warehouses. I left the team handling $2bn yearly revenue while serving 13 countries with 4 warehouses. The team grew from 6 to 22 people.</p>
+            <ul>
+              <li>Delivered a system that ran high-available 24x7 and served all our customers while handling accounting and coordinating logistics.</li>
+              <li>Formalized the whole sales and return order processes with BPMN 2.0 and introduced a BPMN engine that scales and uses the BPMN flows to process the orders.</li>
+              <li>Integrated our custom services with SAP FI-CA to use SAP&#39;s accounting capabilities within 3 months.</li>
+            </ul>
+            <hr />            <h3>CosmoCode GmbH</h3>
+            <strong>Team Lead, Senior Software Engineer</strong>
+            <p>2009 - 2012</p>
+            <p>Designing, developing and launching various kinds of web, mobile and embedded applications.</p>
+            <ul>
+            </ul>
+            <hr />            <h3>CosmoCode GmbH</h3>
+            <strong>Software Engineer</strong>
+            <p>2006 - 2009</p>
+            <p>Designing, developing and launching various kinds of web applications.</p>
+            <ul>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
 
-(defhuman "<a href="http://www.sarnowski.io">Tobias Sarnowski</a>"
-  :email     "<a href="mailto:tobias@sarnowski.io">tobias@sarnowski.io</a>"
-  :location  "Germany/Berlin"
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Skills</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="row-fluid skills">
+            <ul class="col-md-6">
 
-  :dev-since (-> (t/date-time 1997)
-                 (t/interval (t/now)))
+              <li>
+                <h4>Cloud Infrastructure</h4>
+                <ul>
+                  <li>Distributed Systems</li>
+                  <li>Security</li>
+                  <li>Identity &amp; Access Management</li>
+                  <li>Container Orchestration</li>
+                  <li>Kubernetes</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="col-md-6">
 
-  :pgp       {:url "<a href="http://www.sarnowski.io/sarnowski.asc">http://www.sarnowski.io/sarnowski.asc</a>"
-              :id  "B252211A"}
-  :github    "<a href="https://github.com/sarnowski" target="_blank">sarnowski</a>"
+              <li>
+                <h4>Software Development</h4>
+                <ul>
+                  <li>Clojure</li>
+                  <li>Golang</li>
+                  <li>Java</li>
+                  <li>Shell</li>
+                  <li>Python</li>
+                  <li>PHP</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>C</li>
+                  <li>Lua</li>
+                  <li>TCL</li>
+                  <li>Assembler</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="col-md-6">
 
-  :interests [:software
-              :great-teams
-              :distributed-systems
-              :nice-languages
-              :low-level
-              :high-level
-              :open-source
-              :security
-              :cloud
-              :paas
-              :openbsd]
+              <li>
+                <h4>Project Management</h4>
+                <ul>
+                  <li>Continuous Delivery</li>
+                  <li>Kanban</li>
+                  <li>eXtreme Programming</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="col-md-6">
 
-  :languages [:rl/german
-              :rl/english
-              :dev/clojure
-              :dev/java
-              :dev/go
-              :dev/c
-              :dev/asm
-              :dev/lua
-              :dev/tcl
-              :dev/php
-              :dev/python
-              :dev/obj-c
-              :dev/visualbasic
-              :dev/perl
-              :dev/javascript])
-</code>
-</pre>
+              <li>
+                <h4>Operations</h4>
+                <ul>
+                  <li>Amazon Web Services</li>
+                  <li>Bare Metal</li>
+                  <li>Linux</li>
+                  <li>OpenBSD</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="col-md-6">
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-</body>
+              <li>
+                <h4>Databases</h4>
+                <ul>
+                  <li>Cassandra</li>
+                  <li>etcd</li>
+                  <li>PostgreSQL</li>
+                  <li>MySQL</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </body>
 </html>
