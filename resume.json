@@ -5,7 +5,7 @@
     "picture": "sarnowski.jpg",
     "email": "tobias@sarnowski.io",
     "website": "http://www.sarnowski.io",
-    "summary": "I am a passionate software developer since 1997. My strength is my allround knowledge from low-level operating systems and assembler up to Clojure and the Cloud. Coupled with a solid understanding of security topics and distributed systems, this allows me to design and analyse complex, networked architectures. In parallel, I am cooperating with stakeholders to distill their functional requirements without mixing technical decisions into it. My broad knowledge and toolset allows me to find simple solutions to functional requirements.",
+    "summary": "I am a passionate software developer since 1997. My strength is my allround knowledge from low-level operating systems and assembler up to Clojure and the Cloud. Coupled with a solid understanding of security topics and distributed systems, I am able to design and analyze complex, networked architectures. In parallel, I am cooperating with stakeholders to distill their functional requirements without mixing technical decisions into it. My broad knowledge and toolset allows me to find simple solutions to functional requirements.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE",
@@ -27,9 +27,21 @@
   "work": [
     {
       "company": "Zalando SE",
+      "position": "Infrastructure Lead Architect",
+      "website": "https://tech.zalando.com",
+      "startDate": "2016-07-01",
+      "summary": "Defining and executing the overall IT infrastructure product vision; being responsible for the planning and prioritization of all infrastructure projects. Developing a clear long term strategy for Zalando's Technology Infrastructure. Supporting all teams in contributing to the strategy and supporting all major projects to result in great user experiences. The Tech. Infrastructure consists of Networking across all sites (offices, warehouses, data centers), Hardware lifecycle of servers and storage systems, Operating system management (Linux, Solaris, Windows), Monitoring (Server, Backends, End User), Log collection, DDoS protection, Domain management, Certificate management, Identity & Access Management, Central Audit Trail, Billing of all costs to our cost centers and customers, Managed access to Amazon Web Service accounts, Managed Continuous Delivery infrastructure and Managed Databases (PostgreSQL, Cassandra).",
+      "highlights": [
+          "Introduction of Kubernetes as the base for all future operations of Zalando's Tech teams.",
+          "Inception of an own Identity & Access Management infrastructure tailored to Zalando's specific needs."
+      ]
+    },
+    {
+      "company": "Zalando SE",
       "position": "Cloud Architect",
       "website": "https://tech.zalando.com",
       "startDate": "2014-05-01",
+      "endDate": "2016-07-01",
       "summary": "Designing, developing and rolling out processes, systems and good practices in order to bring Zalando Technology from data centers into the Cloud.",
       "highlights": [
         "Design, development and operations of STUPS (https://stups.io) to allow Zalando to work on Amazon Web Services (AWS).",
